@@ -1,0 +1,11 @@
+.navItemsContainer{
+    border: solid red;
+    width: 100%;
+    background-color: navy;
+    height: 200px;
+}
+
+    .navItemsButton{
+        width: 100%;
+        height: 100%;
+    }
