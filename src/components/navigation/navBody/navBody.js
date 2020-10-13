@@ -5,7 +5,11 @@ import NavItems from '../navItems/navItems';
 function NavBody(){
     return(
         <nav className='navBodyContainer'>
-            <NavItems/>
+            <div>
+                <NavItems className='navBodyContainerItem' name='Live'/>
+                <NavItems className='navBodyContainerItem' name='History'/>
+                <NavItems name='Convert'/>
+            </div>
         </nav>
     )
 }

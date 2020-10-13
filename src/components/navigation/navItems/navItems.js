@@ -1,10 +1,10 @@
 import React from 'react';
 import './navItems.css';
 
-function NavItems(){
+function NavItems({name}){
     return(
         <div className='navItemsContainer'>
-            <button className='navItemsButton'>Testing</button>
+            <button className='navItemsButton'>{name}</button>
         </div>
     )
 }
