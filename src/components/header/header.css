@@ -1,0 +1,10 @@
+.headerContainer{
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+}
+    .headerTitleDiv{
+        width: 17%;
+        background-color: violet;
+        height: 100%;
+    }

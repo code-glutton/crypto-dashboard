@@ -1,16 +1,26 @@
 .navItemsContainer{
     border: solid red;
     width: 100%;
-    background-color: navy;
-    height: 200px;
-    margin-bottom: 10px;
+    min-height: 70px;
+    display: grid;
+    grid-template-columns: 1% 19% 80%;
 }
 
-    .navItemsButton{
-        width: 100%;
+    .navItemsSpan{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: rebeccapurple;
+    }
+    .navItemsLogo{
+        grid-column-start: 2;
+        grid-column-end: 3;
         height: 100%;
-        color: oldlace;
-        background-color: transparent;
-        font-size: 24px;
-        font-weight: bold;
+    }
+        .navItemsLogoImg{
+            height: 35px;
+        }
+    .navItemsName{
+        grid-column-start: 3;
+        grid-column-end:4;
+        background-color: teal;
     }
