@@ -1,12 +1,16 @@
+.mainBody{
+    width: 100%;
+    border: solid red;
+    height: 100%;
+    padding:2%;
+}
+
 .mainContainer{
     border: solid saddlebrown;
     height: 100%;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(12,7.42%);
     gap: 1%;
-    overflow: hidden;
-    padding: 1%;
 }
 
     .mainDisplay,.mainHistogram,.mainTable,.mainFacts{
