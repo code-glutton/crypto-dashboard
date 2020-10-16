@@ -3,21 +3,22 @@ import './App.css';
 import NavBody from './components/navigation/navBody/navBody';
 import Header from './components/header/header';
 import Main from './components/main/main';
-import News from './components/news/news'
+import News from './components/news/news';
+import {Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      {/* <div  className='appHeader'>
+      <div  className='appHeader'>
         <Header/>
       </div>
       <div  className='appNav'>
         <NavBody/>
       </div>
       <div className='appMain'>
-        <Main/> */}
-        <News/>
-      {/* </div>   */}
+      <Route exact path='/' component = {Main}/>
+      <Route exact path='/news' component = {News}/>
+      </div>  
     </div>
   );
 }
