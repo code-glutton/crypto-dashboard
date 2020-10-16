@@ -5,15 +5,12 @@
     padding: 20px;
 }
 
-.newsTableContainer{
-    border: solid peru;
-    border-radius:10px ;
-}
 
 .customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    border-radius:10px ;
   }
   
   .customers td, .customers th {
