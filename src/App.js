@@ -3,19 +3,21 @@ import './App.css';
 import NavBody from './components/navigation/navBody/navBody';
 import Header from './components/header/header';
 import Main from './components/main/main';
+import News from './components/news/news'
 
 function App() {
   return (
     <div className="App">
-      <div  className='appHeader'>
+      {/* <div  className='appHeader'>
         <Header/>
       </div>
       <div  className='appNav'>
         <NavBody/>
       </div>
       <div className='appMain'>
-        <Main/>
-      </div>  
+        <Main/> */}
+        <News/>
+      {/* </div>   */}
     </div>
   );
 }

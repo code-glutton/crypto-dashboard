@@ -3,8 +3,52 @@ import './news.css';
 
 function News(){
     return(
-        <div>
+        <div className='newsContainer'>
+            <div className='newsTableContainer'>
+            <table className="customers">
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td width='90%'><h2>Title</h2><p>Alfreds Futterkiste</p></td>
+                    <td>Germany</td>
+                </tr>
+                </table>
 
+            </div>
         </div>
     )
 }
