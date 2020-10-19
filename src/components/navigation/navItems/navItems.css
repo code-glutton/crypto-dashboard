@@ -6,21 +6,37 @@
     grid-template-columns: 1% 19% 80%;
 }
 
+.danger{
+background-color: white;
+}
+
     .navItemsSpan{
         grid-column-start: 1;
         grid-column-end: 2;
-        background-color: rebeccapurple;
     }
     .navItemsLogo{
         grid-column-start: 2;
         grid-column-end: 3;
         height: 100%;
+        position:relative;
     }
         .navItemsLogoImg{
             height: 35px;
+            overflow: auto;
+            margin: auto;
+             position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
         }
     .navItemsName{
         grid-column-start: 3;
         grid-column-end:4;
-        background-color: teal;
+        background-color: transparent;
+    }
+
+    .navItemsName p{
+        height: 50%;
+        margin: 6% 0px;
+        padding-top: 2%;
+        color: white;
+        font-weight: 600;
     }

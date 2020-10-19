@@ -5,16 +5,16 @@ function Main(){
     return(
         <div className='mainBody'>
             <div className='mainContainer'>
-                <div className='mainDisplay'>
-                1
+                <div className='mainDisplay mainDisplayItems one'>
+                    1
                 </div>
-                <div className='mainHistogram'>
-    2
+                <div className='mainHistogram mainDisplayItems two'>
+                    2
                 </div>
-                <div className='mainTable'>
+                <div className='mainTable mainDisplayItems three'>
                     3
                 </div>
-                <div className='mainFacts'>
+                <div className='mainFacts mainDisplayItems four'>
                     4
                 </div>
             </div>

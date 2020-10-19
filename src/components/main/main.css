@@ -9,30 +9,35 @@
     border: solid saddlebrown;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(12,7.42%);
-    gap: 1%;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    column-gap: 4%;
+    row-gap: 8%;
+    padding: 2%;
 }
 
-    .mainDisplay,.mainHistogram,.mainTable,.mainFacts{
-        border: solid red;
-        height: 99%;
-        border-radius: 5px;  
-    }
+.mainDisplayItems{
+    border: solid orange;
+}
 
-    .mainDisplay{
-        grid-column-start: 1;
-        grid-column-end: 7;
-    }
-    .mainHistogram{
-        grid-column-start: 7;
-        grid-column-end: 13;
-    }
-    .mainTable{
-        grid-column-start: 1;
-        grid-column-end: 9;
-    }
-    .mainFacts{
-        grid-column-start: 9;
-        grid-column-end: 13;
-    }
-    
+.one{
+    grid-row-start: 1;
+    grid-row-end: 7;
+    grid-column: 1/7;
+    box-shadow: 0 0 10px;
+}
+
+.two{
+    grid-column: 7/13;
+    grid-row: 1/7;
+}
+
+.three{
+    grid-column: 1/9;
+    grid-row: 7/13;
+}
+
+.four{
+    grid-row: 7/13;
+    grid-column: 9/13;
+}
