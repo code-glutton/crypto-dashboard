@@ -1,12 +1,11 @@
 .mainBody{
     width: 100%;
-    border: solid red;
     height: 100%;
     padding:2%;
+    background-color: #dfe9e9;
 }
 
 .mainContainer{
-    border: solid saddlebrown;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -17,14 +16,15 @@
 }
 
 .mainDisplayItems{
-    border: solid orange;
+    box-shadow: 0 0 3px;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .one{
     grid-row-start: 1;
     grid-row-end: 7;
     grid-column: 1/7;
-    box-shadow: 0 0 10px;
 }
 
 .two{
