@@ -6,7 +6,37 @@ function Main(){
         <div className='mainBody'>
             <div className='mainContainer'>
                 <div className='mainDisplay mainDisplayItems one'>
-                    1
+                    <div className='headersContainer'>
+                        <div className='headers'>
+                            <p>header</p>
+                        </div>
+                        <div className='forms'>
+                            <div className='formsItem'>
+                                <select id="cars">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="opel">Opel</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </div>
+                            <div className='formsItem'>
+                                <select id="cars">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="opel">Opel</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </div>
+                            <div className='formsItem'>
+                                <select id="cars">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="opel">Opel</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </div>
+                        </div>    
+                    </div>
                 </div>
                 <div className='mainHistogram mainDisplayItems two'>
                     2

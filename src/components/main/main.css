@@ -25,7 +25,41 @@
     grid-row-start: 1;
     grid-row-end: 7;
     grid-column: 1/7;
+    padding: 20px;
 }
+
+   .headersContainer{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       align-content: flex-start;
+       height: auto;
+   }
+   
+        .headers{
+            width: 40%;
+        }
+
+        .forms{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .formsItem{
+            width: 32%;
+   }
+
+            .formsItem select{
+                width: 100%;
+                height: 30px;
+                border: solid 1px grey;
+                border-radius: 5px;
+            }
 
 .two{
     grid-column: 7/13;
