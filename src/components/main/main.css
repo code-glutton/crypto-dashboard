@@ -34,6 +34,8 @@
        flex-wrap: wrap;
        align-content: flex-start;
        height: auto;
+       border: solid blue;
+       height: 15%;
    }
    
         .headers{
@@ -61,6 +63,11 @@
                 border-radius: 5px;
             }
 
+    .chart{
+        height: 80%;
+        border: solid red;
+    }
+
 .two{
     grid-column: 7/13;
     grid-row: 1/7;
@@ -69,6 +76,13 @@
 .three{
     grid-column: 1/9;
     grid-row: 7/13;
+    padding: 20px;
+}
+
+.three div{
+height: 100%;
+border: solid palevioletred;
+overflow: scroll;
 }
 
 .four{
