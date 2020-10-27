@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import { VictoryChart,VictoryLine } from 'victory';
+import { VictoryChart,VictoryLine,VictoryBar} from 'victory';
 
 function Main(){
     return(
@@ -39,7 +39,7 @@ function Main(){
                         </div>    
                     </div>
                     <div className='chart'>
-                    <VictoryChart minDomain={{ y: 0 }} padding={10} width={900}>
+                    <VictoryChart minDomain={{ y: 0 }} width={900}>
                         <VictoryLine
                             style={{
                                 data: { stroke: "#c43a31" },
@@ -57,7 +57,22 @@ function Main(){
                     </div>
                 </div>
                 <div className='mainHistogram mainDisplayItems two'>
-                    2
+                    <div className='chart'>
+                    <VictoryChart minDomain={{ y: 0 }} domainPadding={60} width={900}>
+                        <VictoryBar
+                            style={{ data: { fill: "#c43a31" } }}
+                            data={[
+                                {quarter: 1, earnings: 13000},
+                                {quarter: 2, earnings: 16500},
+                                {quarter: 3, earnings: 14250},
+                                {quarter: 4, earnings: 19000}
+                                ]}
+
+                                x="quarter"
+                                y="earnings"
+                        />    
+                    </VictoryChart>
+                    </div>
                 </div>
                 <div className='mainTable mainDisplayItems three'>
                 <div>
