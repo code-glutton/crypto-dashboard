@@ -57,6 +57,9 @@ function Main(){
                     </div>
                 </div>
                 <div className='mainHistogram mainDisplayItems two'>
+                    <div className='headersContainer'>
+
+                    </div>
                     <div className='chart'>
                     <VictoryChart minDomain={{ y: 0 }} domainPadding={60} width={900}>
                         <VictoryBar

@@ -10,13 +10,14 @@
     box-shadow: 0 0 3px;
 }
 
-
+table{
+  border-radius: 100px;
+}
 
 .customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    border-radius:10px ;
   }
 
   .customers td, .customers th {

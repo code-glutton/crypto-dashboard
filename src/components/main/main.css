@@ -66,6 +66,7 @@
     .chart{
         height: 85%;
         border: solid red;
+        padding:0 20px;
     }
 
 .two{
